@@ -1,0 +1,67 @@
+<!-- STUDENTS: Head to float.css for your assignment -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Floats</title>
+  <link rel="stylesheet" type="text/css" href="floats.css">
+</head>
+
+<body>
+
+  <header>
+    &lt;header&gt; #ccc
+  </header>
+
+  <!--
+    wrapping the sections makes them "child" elements of <nav> 
+
+      CSS Overflow:
+      https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
+    
+      overflow: auto  = Desktop browsers provide scrollbars if content overflows.
+
+      If content fits inside the padding box, it looks the same as visible, but still establishes
+      a new block-formatting context.  <<< The reason it "clears" floats, LEARN MORE https://stackoverflow.com/a/22129575
+
+  -->
+  <nav>
+    <section id="left">
+      &lt;section&gt; #666
+    </section>
+  
+    <section id="middle">
+      &lt;section&gt; #888
+    </section>
+  
+    <section id="right">
+      &lt;section&gt; #666
+    </section>
+  </nav>
+
+  <!-- 
+    if nav { overflow: auto; } element below not needed
+    
+    * TIP If you find yourself clearing floats by adding extra markup e.g. <div style="clear:both"></div>
+      consider using the clearfix hack.
+   -->
+  <div style="clear:both"></div>
+
+  <section id="full">
+    <aside>
+      &lt;aside&gt; #fff
+    </aside>
+    &lt;section&gt; #eee
+    <div id="division">
+      &lt;div&gt; #6ea3da
+    </div>
+  </section>
+
+  <footer>
+    &lt;footer&gt; #ccc
+  </footer>
+
+</body>
+
+</html>
