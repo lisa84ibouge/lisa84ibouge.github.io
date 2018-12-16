@@ -1,0 +1,24 @@
+body {
+    background-color: purple;
+    margin-left: 100px;
+    margin-right: 200px;
+    color: #daa520;
+    
+}
+.bio {background-color: #daa520;
+padding: 50px;
+color: black;
+text-align: left;
+}
+
+img {margin-left: 0px;}
+
+ul 
+{color: #daa520;
+margin: 50px;
+margin-left: 500px;}
+
+h2 {font-size: 300%;
+margin-left: 300px;}
+
+
