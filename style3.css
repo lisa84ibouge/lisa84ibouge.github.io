@@ -18,5 +18,32 @@ li {color: #d4af37}
     
     margin: auto;
     text-align: left;
-    
 }
+
+@media only screen and (max-width: 940px){
+        .portfoliopic {
+        margin: auto;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   .portfoliopic {
+       margin: auto;
+       max-width: 100%;
+   }
+     
+@media only screen and (max-width: 640px) { 
+    
+  
+    
+    .portfoliopic {
+        margin: auto;
+       max-width: 100%;
+    }
+}
+
+}
+      
+      
+     
