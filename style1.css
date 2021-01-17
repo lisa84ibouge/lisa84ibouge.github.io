@@ -159,6 +159,7 @@
      background-color: #daa520;
      color: #695189;
      padding: 30px;
+     font-family: 'Quicksand', sans-serif;
    }
 
    header h1 {
@@ -221,7 +222,6 @@
    h2 {
      font-size: 150%
    }
-
 
 
 

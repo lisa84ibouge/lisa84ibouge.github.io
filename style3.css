@@ -2,9 +2,22 @@ body {
     background: #6951a9
 }
 
-h1 {color: #d4af37;}
+h1 {
+color: #d4af37;
+margin-left: 500px;
+font-size: 300%;
+}
 
 li {color: #d4af37}
+
+.linkToApp {
+
+    margin-left: 550px;
+    margin-right: auto;
+    color: goldenrod;
+    font-size: 200%;
+    
+  }
 
 .portfoliopic {
 
@@ -19,6 +32,9 @@ li {color: #d4af37}
     margin: auto;
     text-align: left;
 }
+
+
+  
 
 @media only screen and (max-width: 940px){
         .portfoliopic {
